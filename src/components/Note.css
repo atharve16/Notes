@@ -1,0 +1,33 @@
+.note {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.note:hover {
+  transform: translateY(-5px);
+}
+
+.note img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.note-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.note-actions button {
+  background-color: #3f51b5;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.note-actions button:hover {
+  background-color: #303f9f;
+}
